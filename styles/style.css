@@ -18,20 +18,24 @@
 body {
   margin: 0;
 }
+
 .text-block {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
+  margin-bottom: 36px;
 }
+
 .title {
   font-family: "RalewayRegular";
   text-transform: uppercase;
   font-size: 36px;
   font-weight: normal;
   color: #212121;
-  margin-top: 100px;
-  margin-bottom: 25px;
+  margin: 0 0 25px;
 }
+
 .line-red {
   width: 64px;
   height: 2px;
@@ -39,26 +43,32 @@ body {
   background-color: #e72424;
   margin: 0;
 }
+
 .subtitle {
   font-family: "OpenSansRegular";
   font-size: 14px;
   color: #86878b;
-  margin-top: 30px;
-  margin-bottom: 36px;
+  margin: 30px 0 0;
 }
+
 .block-items {
+  width: 100%;
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   margin-bottom: 89px;
 }
+
 .item {
-  width: 350px;
+  width: 20%;
+  min-width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin: 31px 16px 0;
 }
+
 .item-image {
   border-radius: 50%;
   border: 1px solid #e72424;
@@ -68,14 +78,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .item-title {
   font-family: "OpenSansBold";
   font-size: 20px;
   color: #333333;
-  margin: 0;
-  padding-top: 30px;
-  padding-bottom: 16px;
+  margin-top: 30px;
+  margin-bottom: 16px;
 }
+
 .item-subtitle {
   font-family: "OpenSansRegular";
   font-size: 14px;
@@ -101,6 +112,7 @@ body {
   margin-top: 75px;
   margin-bottom: 48px;
 }
+
 .line-white {
   width: 64px;
   height: 2px;
@@ -108,12 +120,14 @@ body {
   background-color: #ffffff;
   margin: 0;
 }
+
 .subtitle-white {
   font-family: RalewayLight;
   font-size: 16px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
   margin: 30px 0;
 }
+
 .button-white {
   background-color: transparent;
   border: 1px solid white;
@@ -121,6 +135,7 @@ body {
   padding: 11px 26px;
   margin-bottom: 38px;
 }
+
 .button-white:hover {
   background-color: rgb(179, 175, 175);
   transition-duration: 0.5s;
@@ -134,6 +149,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 footer img {
   margin: 30px 0 18px;
 }
@@ -144,4 +160,3 @@ footer .footer p {
   color: rgba(255, 255, 255, 0.5);
   margin: 0 0 15px;
 }
-
