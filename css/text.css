@@ -31,29 +31,28 @@ h2 {
   margin: 0 0 34px;
 }
 
-.title-white {
+h2.title-white {
   color: #ffffff;
 }
 
-.title-black {
+h2.title-black {
   color: #212121;
 }
 
-.line-red {
+.line {
   width: 64px;
   height: 2px;
   border-width: 0;
-  background-color: #e72424;
   margin: 0;
 }
 
+.line-red {
+  background-color: #e72424;
+}
+
 .line-white {
-    width: 64px;
-    height: 2px;
-    border-width: 0;
-    background-color: #ffffff;
-    margin: 0;
-  }
+  background-color: #ffffff;
+}
 
 p {
   font-family: "OpenSansRegular";
@@ -63,4 +62,16 @@ p {
 p.text-gray {
   color: #86878b;
   margin: 30px 0 0;
+}
+
+p.subtitle-white {
+  font-family: RalewayLight;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p.title-medium {
+  font-family: "OpenSansBold";
+  font-size: 20px;
+  color: #333333;
 }

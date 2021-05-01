@@ -55,21 +55,81 @@
 /* HERO */
 
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 70px;
   background: url(/images/building-hero.png) rgba(0, 0, 0, 0.65);
   background-size: cover;
   background-blend-mode: multiply;
+}
+
+.hero-text {
+  margin-left: 110px;
+  padding: 108px 0 101px;
 }
 .hero-logo {
   font-family: "RobotoRegular";
   text-transform: uppercase;
   font-size: 60px;
   color: #ffffff;
-  margin-left: 9.7%;
 }
 
 .hero .title-white {
   margin: 32px 0;
+}
+
+.hero .subtitle-white {
+  margin: 39px 0;
+}
+
+.contact-form {
+  margin-right: 111px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  width: 370px;
+  border-radius: 8px;
+}
+
+.contact-form .title-medium {
+  text-transform: capitalize;
+  margin-bottom: 45px;
+}
+
+.contact-form .title-medium span {
+  color: #ec7979;
+  text-transform: uppercase;
+}
+
+input {
+  width: 67%;
+  padding: 16px 0;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #bdbdbd;
+  outline: 0;
+  outline-offset: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 61px;
+}
+
+input::placeholder {
+  font-family: "OpenSansRegular";
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.contact-form .button-red {
+  width: 100%;
+  padding: 18px 0;
 }
 
 /* AWESOME */
@@ -111,10 +171,7 @@
   align-items: center;
 }
 
-.item-title {
-  font-family: "OpenSansBold";
-  font-size: 20px;
-  color: #333333;
+.item .title-medium {
   margin-top: 30px;
   margin-bottom: 16px;
 }
@@ -147,30 +204,18 @@
   background-blend-mode: multiply;
 }
 
+/*  */
+
 .text-block-background-image .title-white {
   margin-top: 57px;
 }
 
-.subtitle-white {
-  font-family: RalewayLight;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.8);
-  margin: 30px 0;
+.text-block-background-image .subtitle-white {
+  margin: 34px 0 57px;
 }
 
-.button-white {
-  background-color: transparent;
-  border: 1px solid white;
-  color: #ffffff;
-  padding: 11px 26px;
+.text-block-background-image .button-white {
   margin-bottom: 38px;
-}
-
-.button-white:hover {
-  background-color: #ec7979;
-  transition-duration: 0.5s;
-  color: black;
-  border: 1px solid #ec7979;
 }
 
 .footer {
