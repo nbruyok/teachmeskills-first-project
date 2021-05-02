@@ -42,6 +42,7 @@
 }
 .header-menu-link:hover {
   color: #ec7979;
+  transition-duration: 0.5s;
 }
 
 .header ul li {
@@ -65,7 +66,7 @@
 }
 
 .hero-text {
-  margin-left: 110px;
+  margin-left: 9.7%;
   padding: 108px 0 101px;
 }
 .hero-logo {
@@ -84,7 +85,7 @@
 }
 
 .contact-form {
-  margin-right: 111px;
+  margin-right: 9.7%;
 }
 
 .contact-form form {
@@ -130,6 +131,51 @@ input::placeholder {
 .contact-form .button-red {
   width: 100%;
   padding: 18px 0;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media {
+  background: #f8efef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-text {
+  margin: 14px 129px 17px 9.7%;
+}
+
+.social-media .title-medium {
+  text-transform: capitalize;
+  margin: 0 0 14px;
+}
+
+.social-media .text-gray {
+  margin: 0;
+}
+
+.social-media-logo {
+  display: flex;
+  margin-right: 9.7%;
+}
+
+.social-media-logo a {
+  margin-right: 40px;
+}
+
+.social-media-logo a:last-child {
+  margin-right: 0;
+}
+
+.social-media-logo i {
+  color: #bdbdbd;
+  font-size: 42px;
+}
+
+.social-media-logo i:hover {
+  color: #818181;
+  transition-duration: 0.5s;
 }
 
 /* AWESOME */
