@@ -179,6 +179,7 @@ input::placeholder {
 }
 
 /* AWESOME */
+
 .text-block {
   display: flex;
   flex-direction: column;
@@ -188,25 +189,27 @@ input::placeholder {
 }
 
 .block-items {
-  width: 100%;
+  margin: 0 9.7% 89px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  margin-bottom: 89px;
 }
 
 .item {
-  width: 20%;
-  min-width: 350px;
+  width: 30%;
+  max-width: 350px;
+  min-width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin: 31px 32px 0 0;
 }
+
 .item:last-child {
   margin-right: 0;
 }
+
 .item-image {
   border-radius: 50%;
   border: 1px solid #e72424;
@@ -227,19 +230,64 @@ input::placeholder {
   margin: 0 0 20px;
 }
 
-/* customer section */
+/* CUSTOMER SECTION */
+
 .customer-block-item .subtitle {
   margin: 0;
 }
 .customer-block-item {
-  width: 100%;
+  margin: 0 9.7% 120px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  margin-bottom: 89px;
 }
+
 .customer-item {
+  width: 30%;
+  max-width: 298px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 100px;
+  margin-top: 36px;
 }
+
+.customer-item:last-child {
+  margin-right: 0;
+}
+
+p.text-gray.text-backgroung {
+  background: #e2e2e2;
+  border-radius: 8px;
+  padding: 14px 17px;
+  margin: 0;
+}
+
+.customer-info {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.customer-info img {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.customer-info .title-medium {
+  text-align: end;
+  margin: 30px 0 12px;
+}
+
+.customer-info .text-gray {
+  text-align: end;
+  margin: 0;
+}
+
+/*  */
 
 .text-block-background-image {
   display: flex;
@@ -249,8 +297,6 @@ input::placeholder {
   background-size: cover;
   background-blend-mode: multiply;
 }
-
-/*  */
 
 .text-block-background-image .title-white {
   margin-top: 57px;
@@ -264,6 +310,8 @@ input::placeholder {
   margin-bottom: 38px;
 }
 
+/* FOOTER */
+
 .footer {
   background-color: black;
   display: flex;
@@ -271,8 +319,22 @@ input::placeholder {
   align-items: center;
 }
 
-footer img {
+.logo-row {
+  max-width: 320px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   margin: 30px 0 18px;
+}
+
+.logo-row i {
+  font-size: 23px;
+  color: #bdbdbd;
+}
+
+.logo-row i:hover {
+  color: #818181;
+  transition-duration: 0.5s;
 }
 
 footer .footer p {
