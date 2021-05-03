@@ -295,10 +295,70 @@ input::placeholder {
   margin: 0 0 20px;
 }
 
+/* PRICING SECTION */
+
+.pricing {
+  padding: 80px 9.7% 60px;
+  background: #f5f5f5;
+}
+
+.pricing-card-block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  margin-top: 30px;
+}
+
+.pricing-card:nth-child(2) {
+  margin-top: 11px;
+}
+
+.pricing-card p {
+  text-align: center;
+  width: 100%;
+}
+
+.pricing-card .title-medium {
+  color: #ffffff;
+  background: #333333;
+  padding: 15px 0 8px;
+  margin: 0;
+}
+
+.text-pricing-card {
+  font-family: RalewayBold;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #333333;
+  padding: 26px 0 33px;
+  margin: 2px 0;
+}
+
+.pricing-card > p:nth-child(3) {
+  background: #333333;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 17px 0 14px;
+  margin: 0;
+}
+
+.pricing-card .text-gray {
+  background: #ffffff;
+  padding: 10px 0;
+  margin: 4px 0 0;
+}
+
 /* CUSTOMER SECTION */
 
 .customer-block {
-  margin: 0 9.7% 120px ;
+  margin: 80px 9.7% 120px;
 }
 
 .customer-block-item .subtitle {
