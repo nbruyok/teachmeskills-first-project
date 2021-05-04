@@ -1,0 +1,81 @@
+@font-face {
+  font-family: OpenSansBold;
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSansRegular;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSansSemiBold;
+  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: RalewayRegular;
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: RalewayLight;
+  src: url(../fonts/Raleway/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: RalewayBold;
+  src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+h2 {
+  font-family: "RalewayRegular";
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 0 34px;
+}
+
+h2.title-white {
+  color: #ffffff;
+}
+
+h2.title-black {
+  color: #212121;
+}
+
+.line {
+  width: 64px;
+  height: 2px;
+  border-width: 0;
+  margin: 0;
+}
+
+.line-red {
+  background-color: #e72424;
+}
+
+.line-white {
+  background-color: #ffffff;
+}
+
+p {
+  font-family: "OpenSansRegular";
+  font-size: 14px;
+}
+
+p.text-gray {
+  color: #86878b;
+  margin: 34px 0 0;
+}
+
+p.subtitle-white {
+  font-family: RalewayLight;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p.title-medium {
+  font-family: "OpenSansBold";
+  font-size: 20px;
+  color: #333333;
+}

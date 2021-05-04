@@ -1,0 +1,31 @@
+button {
+  font-family: "OpenSansSemiBold";
+  font-style: normal;
+  font-size: 15px;
+}
+
+.button-white {
+  background-color: transparent;
+  border: 1px solid white;
+  color: #ffffff;
+  padding: 11px 26px;
+}
+
+.button-white:hover {
+  background-color: #ec7979;
+  transition-duration: 0.5s;
+  border: 1px solid #ec7979;
+}
+
+.button-red {
+  background: #ec7979;
+  border: none;
+  color: #ffffff;
+}
+
+.button-red:hover {
+  background-color: #333333;
+  transition-duration: 0.5s;
+  color: #ffffff;
+  border: none;
+}
