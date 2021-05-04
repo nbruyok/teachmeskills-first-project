@@ -24,19 +24,19 @@
         <nav class="header-menu">
           <ul class="header-bottom-menu">
             <li>
-              <a class="header-menu-link" href="">feautures</a>
+              <a class="header-menu-link" href="#feautures">feautures</a>
             </li>
             <li>
-              <a class="header-menu-link" href="">about</a>
+              <a class="header-menu-link" href="#about">about</a>
             </li>
             <li>
-              <a class="header-menu-link" href="">pricing</a>
+              <a class="header-menu-link" href="#pricing">pricing</a>
             </li>
             <li>
-              <a class="header-menu-link" href="">reviews</a>
+              <a class="header-menu-link" href="#reviews">reviews</a>
             </li>
             <li>
-              <a class="header-menu-link" href="">contact</a>
+              <a class="header-menu-link" href="#contact">contact</a>
             </li>
           </ul>
         </nav>
@@ -86,7 +86,7 @@
         </div>
       </section>
 
-      <section class="social-media">
+      <section id="feautures" class="social-media">
         <div class="social-media-text">
           <p class="title-medium">social media</p>
           <p class="text-gray">
@@ -143,7 +143,7 @@
         </div>
       </section>
 
-      <section class="awesome">
+      <section id="about" class="awesome">
         <div class="text-block">
           <h2 class="title-black">why this is awesome</h2>
           <hr class="line line-red" />
@@ -188,7 +188,7 @@
         </div>
       </section>
 
-      <section class="pricing">
+      <section id="pricing" class="pricing">
         <div class="text-block">
           <h2 class="title-black">pricing options</h2>
           <hr class="line line-red" />
@@ -233,7 +233,7 @@
         </div>
       </section>
 
-      <section class="customer-block">
+      <section id="reviews" class="customer-block">
         <div class="text-block">
           <h2 class="title-black">what our customers are saying</h2>
           <hr class="line line-red" />
@@ -296,6 +296,49 @@
           prototypes faster than ever!
         </p>
         <button class="button-white">Download</button>
+      </section>
+
+      <section id="contact" class="contact-us">
+        <div class="text-block">
+          <h2 class="title-black">contact us</h2>
+          <hr class="line line-red" />
+          <p class="text-gray">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <form action="#">
+            <div class="input-block">
+              <div>
+                <input
+                  type="text"
+                  name="user-name"
+                  id="name"
+                  placeholder="Name"
+                />
+
+                <input
+                  type="email"
+                  name="user-mail"
+                  id="mail"
+                  placeholder="E-mail"
+                />
+
+                <input
+                  type="password"
+                  name="user-password"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+              <div>
+                <textarea name="message" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <button class="button-red" type="button">Send Message</button>
+          </form>
+        </div>
       </section>
     </main>
 

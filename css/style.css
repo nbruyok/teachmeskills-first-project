@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -63,12 +67,9 @@
   background: url(/images/building-hero.png) rgba(0, 0, 0, 0.65);
   background-size: cover;
   background-blend-mode: multiply;
+  padding: 108px 9.7% 101px;
 }
 
-.hero-text {
-  margin-left: 9.7%;
-  padding: 108px 0 101px;
-}
 .hero-logo {
   font-family: "RobotoRegular";
   text-transform: uppercase;
@@ -82,10 +83,6 @@
 
 .hero .subtitle-white {
   margin: 39px 0;
-}
-
-.contact-form {
-  margin-right: 9.7%;
 }
 
 .contact-form form {
@@ -107,7 +104,8 @@
   text-transform: uppercase;
 }
 
-input {
+input,
+textarea {
   width: 67%;
   padding: 16px 0;
   border: none;
@@ -122,7 +120,8 @@ input[type="password"] {
   margin-bottom: 61px;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   font-family: "OpenSansRegular";
   font-size: 14px;
   color: #bdbdbd;
@@ -211,6 +210,7 @@ input::placeholder {
   background: #333333;
   border-radius: 4px;
 }
+
 .tabs-item a:hover {
   background-color: #ec7979;
   transition-duration: 0.5s;
@@ -424,18 +424,53 @@ p.text-gray.text-backgroung {
   background: url(/images/building-main.png) rgba(0, 0, 0, 0.65);
   background-size: cover;
   background-blend-mode: multiply;
-}
-
-.text-block-background-image .title-white {
-  margin-top: 57px;
+  padding: 57px 9.7% 38px;
 }
 
 .text-block-background-image .subtitle-white {
   margin: 34px 0 57px;
 }
 
-.text-block-background-image .button-white {
-  margin-bottom: 38px;
+/* CONTACT US */
+
+.contact-us {
+  margin: 80px 9.7% 44px;
+}
+
+.contact-us form {
+  display: flex;
+  width: auto;
+}
+
+.contact-us form input {
+  margin: 0 0 32px;
+  width: 478px;
+  padding-bottom: 32px;
+}
+
+.contact-us form input:last-child {
+  margin-bottom: 0;
+}
+
+.input-block {
+  display: flex;
+  margin-bottom: 68px;
+}
+
+.contact-us .contact-form {
+  margin: 90px 0 0;
+}
+
+.contact-form textarea {
+  width: 478px;
+  height: 265px;
+  margin-left: 50px;
+}
+
+.contact-form .button-red {
+  padding: 11px 32px;
+  width: auto;
+  border-radius: 0;
 }
 
 /* FOOTER */
