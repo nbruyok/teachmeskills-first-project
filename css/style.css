@@ -2,33 +2,39 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 .header {
   position: fixed;
   width: 100%;
   top: 0;
   right: 0;
+  background-color: black;
+}
+
+.header-wrapper {
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
 }
 
-.header-logo {
+.header-logo a {
   font-family: "RalewayRegular";
   text-transform: uppercase;
   font-size: 30px;
+  text-decoration: none;
   color: #ffffff;
-  margin-left: 9.7%;
 }
 
 .header-logo-red-part {
   color: #ec7979;
 }
 
-.header-menu {
-  margin: 0 9.55% 0 0;
-}
 .header-bottom-menu {
   list-style-type: none;
   display: flex;
@@ -60,14 +66,19 @@ html {
 /* HERO */
 
 .hero {
+  background: url(/images/building-hero.png) rgba(0, 0, 0, 0.65);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  padding: 108px 0 101px;
+}
+
+.hero-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 70px;
-  background: url(/images/building-hero.png) rgba(0, 0, 0, 0.65);
-  background-size: cover;
-  background-blend-mode: multiply;
-  padding: 108px 9.7% 101px;
 }
 
 .hero-logo {
@@ -137,13 +148,13 @@ textarea::placeholder {
 
 .social-media {
   background: #f8efef;
+}
+
+.social-media-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.social-media-text {
-  margin: 14px 129px 17px 9.7%;
+  padding: 14px 0 14px;
 }
 
 .social-media .title-medium {
@@ -180,11 +191,8 @@ textarea::placeholder {
 
 /* TABS */
 
-.tabs-block {
-  margin: 100px 9.7% 125px;
-}
-
-.tabs {
+.tabs-block-wrapper {
+  margin: 100px 0 125px;
   display: flex;
 }
 
@@ -235,7 +243,6 @@ textarea::placeholder {
 }
 
 .tabs-block img {
-  width: 320px;
   height: 253px;
   width: 100%;
 }
@@ -243,8 +250,7 @@ textarea::placeholder {
 /* AWESOME */
 
 .awesome {
-  margin-top: 100px;
-  margin: 80px 9.7% 96px;
+  margin: 80px 0 96px;
 }
 
 .text-block {
@@ -298,7 +304,7 @@ textarea::placeholder {
 /* PRICING SECTION */
 
 .pricing {
-  padding: 80px 9.7% 60px;
+  padding: 80px 0 60px;
   background: #f5f5f5;
 }
 
@@ -314,10 +320,6 @@ textarea::placeholder {
   align-items: center;
   width: 340px;
   margin-top: 30px;
-}
-
-.pricing-card:nth-child(2) {
-  margin-top: 11px;
 }
 
 .pricing-card p {
@@ -358,7 +360,7 @@ textarea::placeholder {
 /* CUSTOMER SECTION */
 
 .customer-block {
-  margin: 80px 9.7% 120px;
+  margin: 80px 0 120px;
 }
 
 .customer-block-item .subtitle {
@@ -418,13 +420,16 @@ p.text-gray.text-backgroung {
 /*  */
 
 .text-block-background-image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background: url(/images/building-main.png) rgba(0, 0, 0, 0.65);
   background-size: cover;
   background-blend-mode: multiply;
-  padding: 57px 9.7% 38px;
+  padding: 57px 0 38px;
+}
+
+.text-block-background-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text-block-background-image .subtitle-white {
@@ -434,18 +439,20 @@ p.text-gray.text-backgroung {
 /* CONTACT US */
 
 .contact-us {
-  margin: 80px 9.7% 44px;
+  margin: 80px 0 44px;
 }
 
 .contact-us form {
   display: flex;
-  width: auto;
+  width: 100%;
 }
 
 .contact-us form input {
   margin: 0 0 32px;
   width: 478px;
   padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-us form input:last-child {
@@ -454,6 +461,7 @@ p.text-gray.text-backgroung {
 
 .input-block {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 68px;
 }
 
@@ -477,6 +485,9 @@ p.text-gray.text-backgroung {
 
 .footer {
   background-color: black;
+}
+
+.footer-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
