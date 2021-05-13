@@ -25,6 +25,7 @@
 
             <nav class="header-menu">
               <ul class="header-bottom-menu">
+                <li class=><i class="fas fa-bars"></i></li>
                 <li>
                   <a class="header-menu-link" href="#features">features</a>
                 </li>
@@ -72,27 +73,28 @@
                 <p class="title-medium">
                   try your <span>free</span> trial today
                 </p>
+                <div class="contact-form-inputs">
+                  <input
+                    type="text"
+                    name="user-name"
+                    id="name"
+                    placeholder="Name"
+                  />
 
-                <input
-                  type="text"
-                  name="user-name"
-                  id="name"
-                  placeholder="Name"
-                />
+                  <input
+                    type="email"
+                    name="user-mail"
+                    id="mail"
+                    placeholder="E-mail"
+                  />
 
-                <input
-                  type="email"
-                  name="user-mail"
-                  id="mail"
-                  placeholder="E-mail"
-                />
-
-                <input
-                  type="password"
-                  name="user-password"
-                  id="password"
-                  placeholder="Password"
-                />
+                  <input
+                    type="password"
+                    name="user-password"
+                    id="password"
+                    placeholder="Password"
+                  />
+                </div>
 
                 <button class="button-red" type="button">Get Started</button>
               </form>
@@ -101,14 +103,14 @@
         </div>
       </section>
 
-      <section id="features" class="social-media">
+      <section class="social-media">
         <div class="container">
           <div class="social-media-wrapper">
             <div class="social-media-text">
               <p class="title-medium">social media</p>
               <p class="text-gray">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-                Aenean euismod bibendum laoreet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.
               </p>
             </div>
             <div class="social-media-logo">
@@ -138,29 +140,32 @@
         </div>
       </section>
 
-      <section class="tabs-block">
+      <section id="features" class="tabs-block">
         <div class="container">
           <div class="tabs-block-wrapper">
-            <nav class="tabs-item">
-              <a href="#tab-1" class="tabs-item">tab 1</a>
-              <a href="#tab-1" class="tabs-item"> tab 1</a>
-              <a href="#tab-1" class="tabs-item">tab 1</a>
-            </nav>
-            <div id="tab-1" class="tab-content">
-              <p class="title-medium">Tabs with soft transitioning effect.</p>
-              <p class="text-gray">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-                accumsan et viverra justo commodo. Proin sodales pulvinar
-                tempor. Cum sociis natoque penatibus et magnis dis parturient
-                montes.
-                <br /><br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                euismod bibendum laoreet.
-              </p>
-              <button class="button-red">Download</button>
+            <div class="tabs-slider">
+              <nav class="tabs-item">
+                <a href="#tab-1" class="tab-item">tab 1</a>
+                <a href="#tab-1" class="tab-item"> tab 1</a>
+                <a href="#tab-1" class="tab-item">tab 1</a>
+              </nav>
+              <div id="tab-1" class="tab-content">
+                <p class="title-medium">Tabs with soft transitioning effect.</p>
+                <p class="text-gray">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                  parturient montes.
+                  <br /><br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet.
+                </p>
+                <button class="button-red">Download</button>
+              </div>
             </div>
-            <img src="/images/city.png" alt="city" />
+
+            <img src="./images/city.png" alt="city" />
           </div>
         </div>
       </section>
@@ -342,26 +347,26 @@
 
           <div class="contact-form">
             <form action="#">
-              <div class="input-block">
-                <div>
+              <div class="contact-form-body">
+                <div class="input-block">
                   <input
                     type="text"
                     name="user-name"
-                    id="name"
+                    id="name-contact-us"
                     placeholder="Name"
                   />
 
                   <input
                     type="email"
                     name="user-mail"
-                    id="mail"
+                    id="mail-contact-us"
                     placeholder="E-mail"
                   />
 
                   <input
                     type="password"
                     name="user-password"
-                    id="password"
+                    id="password-contact-us"
                     placeholder="Password"
                   />
                 </div>
